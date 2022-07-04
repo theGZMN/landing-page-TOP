@@ -109,15 +109,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .l-heading {
-  font-size: 6rem;
+  font-size: 7.5rem;
 }
 
 .m-heading {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .s-heading {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 .py-1 { padding: 2.5rem 0; }
