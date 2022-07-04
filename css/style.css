@@ -79,8 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-dark {
-  color: var(--secondary-color);
-  background: var(--primary-color);
+  color: var(--primary-color);
+  background: var(--secondary-color);
 }
 
 .btn-dark:hover {
@@ -128,6 +128,15 @@ h1, h2, h3, h4, h5, h6 {
 .p-2 { padding: 3.5rem; }
 .p-3 { padding: 5rem; }
 
+.list li {
+  padding: 1.2rem 0;
+  border-bottom: var(--primary-color) 1px solid;
+}
+
+.list li a:hover {
+  color: var(--light-color);
+}
+
 /* Navbar */
 #navbar {
   position: sticky;
@@ -153,7 +162,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #navbar .navbar-container ul li a {
   padding: .8rem 1.6rem;
-  /* margin-left: 1rem; */
 }
 
 #navbar .navbar-container ul li a:hover {
@@ -231,7 +239,6 @@ header #hero {
   grid-template-columns: 1fr;
   padding: 1.6rem;
   grid-gap: 1rem;
-  border-radius: .8rem;
 }
 
 #article .article-container .card .card-text {
@@ -279,6 +286,56 @@ header #hero {
   align-items: center;
   grid-gap: 10rem;
   border-radius: 1rem;
+  padding: 3rem 5rem;
+}
+
+#contact .contact-card .contact-card-button {
+  justify-self: end;
+}
+
+/* Page Section */
+.page-container {
+  display: grid;
+  grid-template-columns: 9fr 4fr;
+  grid-gap: 3rem;
+}
+
+.page-container aside {
+  position: sticky;
+  top: 6.4rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+}
+
+.page-container .aside-box {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.page-container .aside-box a {
+  text-align: center;
+}
+
+.page-container > *:first-child {
+  grid-row: 1 / span 2;
+}
+
+.page-container img {
+  width: 100%;
+}
+
+/* Locations Page */
+.locations-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5rem;
+}
+
+.locations-container .article-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
 }
 
 /* Footer Section */
