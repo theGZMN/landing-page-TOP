@@ -84,6 +84,10 @@
   }
 
   /* Header */
+  header::before {
+    background: url('../img/hero-img.jpg') no-repeat center center/cover;
+  }
+
   #hero .container {
     height: 100%;
     display: grid;
@@ -102,6 +106,10 @@
   }
 
   /* Quotes Section */
+  #quotes::before {
+    background: url('../img/quotes-img.jpg') no-repeat center center/cover;
+  }
+
   #quotes .container .quote {
     padding: 1rem 1rem;
     font-size: 1.8rem;
