@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&family=Nixie+One&family=Press+Start+2P&display=swap');
 
 /* font-family: 'Big Shoulders Display', cursive;
 font-family: 'Lexend Deca', sans-serif;
-font-family: 'Special Elite', cursive; */
+font-family: 'Press Start 2P', cursive;
+font-family: 'Nixie One', cursive; */
 
 :root {
   --light-color: #f1f1f1;
@@ -42,7 +43,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Big Shoulders Display', cursive;
   margin-bottom: .8rem;
   line-height: 1.2;
-  /* text-transform: uppercase; */
   margin-bottom: 0;
 }
 
@@ -54,8 +54,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-  font-size: 4.5rem;
-  font-family: 'Special Elite', cursive;
+  font-size: 6rem;
+  font-family: 'Nixie One', cursive;
   text-transform: capitalize;
 }
 
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   color: var(--secondary-color);
   background: var(--drab-color);
-  padding: 1rem 3rem;
+  padding: 1rem 3rem;font-family: 'Lexend Deca', sans-serif;
   border: none;
   transition: background, color 300ms ease;
 }
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 .p-3 { padding: 5rem; }
 
 .list li {
-  padding: 1.2rem 0;
+  padding: 1rem 0;
   border-bottom: var(--primary-color) 1px solid;
 }
 
@@ -277,7 +277,7 @@ header #hero {
   font-size: 2.2rem;
 }
 
-/* Contact Section */
+/* Home Contact Section */
 #contact .contact-card {
   max-width: 90rem;
   margin: auto;
@@ -336,6 +336,36 @@ header #hero {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
+}
+
+/* Contact Page Form */
+.contact-container p {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.6rem;
+}
+
+form .form-group input,
+form .form-group textarea {
+  display: block;
+  padding: 1.2rem .8rem;
+  width: 100%;
+  border: var(--primary-color) solid 1px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+form .form-group input:focus,
+form .form-group textarea:focus {
+  outline: none;
+  border: var(--secondary-color) solid 1px;
+}
+
+form .form-group textarea {
+  height: 10rem;
 }
 
 /* Footer Section */
