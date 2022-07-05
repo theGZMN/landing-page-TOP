@@ -1,0 +1,131 @@
+/* Utilities */
+.logo {
+  font-size: 5rem;
+}
+
+.l-heading {
+  font-size: 6rem;
+}
+
+.m-heading {
+  font-size: 4.5rem;
+}
+
+.s-heading {
+  font-size: 2rem 4rem;
+}
+
+.py-1 { padding: 2rem 0; }
+.py-2 { padding: 3rem 0; }
+.py-3 { padding: 4.5rem 0; }
+
+.p-1 { padding: 2rem; }
+.p-2 { padding: 3rem; }
+.p-3 { padding: 4.5rem; }
+
+/* Article */
+#article .article-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Home Contact Section */
+#contact .contact-card {
+  padding: 3rem;
+}
+
+/* Page Section */
+.page-container {
+  grid-template-columns: 9fr 5fr;
+  grid-gap: 2rem;
+}
+
+@media screen and (max-width: 550px) {
+  /* Utilities */
+  .logo {
+    line-height: 1;
+    margin-bottom: .7rem;
+  }
+
+  .l-heading {
+    font-size: 5rem;
+  }
+  
+  .m-heading {
+    font-size: 4rem;
+  }
+  
+  .s-heading {
+    font-size: 3rem;
+  }
+  
+  .py-1 { padding: 2rem 0; }
+  .py-2 { padding: 2.5rem 0; }
+  .py-3 { padding: 4rem 0; }
+  
+  .p-1 { padding: 2rem; }
+  .p-2 { padding: 2.5rem; }
+  .p-3 { padding: 4rem; }
+
+  /* Navbar */
+  #navbar .navbar-container {
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  #navbar .navbar-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #navbar .navbar-container ul li a {
+    padding: .4rem 1.2rem;
+  }
+
+  /* Header */
+  #hero .container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  /* Article */
+  #article .article-container {
+    grid-template-columns: 1fr;
+  }
+
+  #article .article-container .card img {
+    height: 25rem;
+    width: 100%;
+  }
+
+  /* Quotes Section */
+  #quotes .container .quote {
+    padding: 1rem 1rem;
+    font-size: 1.8rem;
+  }
+
+  /* Home Contact Section */
+  #contact .contact-card {
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+    padding: 2.5rem;
+  }
+
+  #contact .contact-card .contact-card-button {
+    justify-self: center;
+  }
+
+  /* Page Section */
+  .page-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+
+  .page-container > *:first-child {
+    grid-row: 1;
+  }
+}
