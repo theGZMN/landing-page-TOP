@@ -301,7 +301,7 @@ header #hero {
 
 .page-container aside {
   position: sticky;
-  top: 6.4rem;
+  top: 8.2rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
