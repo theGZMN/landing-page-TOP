@@ -223,7 +223,6 @@ header #hero {
 
 /* Article */
 #article {
-  /* background: var(--secondary-color); */
   text-align: center;
 }
 
@@ -353,6 +352,7 @@ form .form-group input,
 form .form-group textarea {
   display: block;
   padding: 1.2rem .8rem;
+  margin-top: .4rem;
   width: 100%;
   border: var(--primary-color) solid 1px;
   font-family: 'Lexend Deca', sans-serif;
